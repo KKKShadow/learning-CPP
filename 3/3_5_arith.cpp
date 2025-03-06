@@ -4,7 +4,7 @@ using namespace std ;
 
 int main (void)
 {
-    float hats , heads ;
+    float hats , heads ;  //double 精度更高 结果正确  尽量用double
     cout.setf(ios_base::fixed , ios_base::floatfield );
     cout << "Enter a number : " ;
     cin >> hats ;  //50.25
