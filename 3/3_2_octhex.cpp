@@ -11,7 +11,7 @@ int main (void)
 
     cout << "cheat  = "  << cheat << " , 42 in decimal"<<  endl ;
     cout << "wrist  = "  << wrist << " , 0x42 in hexadecimal"<< endl ;
-    cout << "inseam = "  << inseam << " , 042 in octoal"<< endl ;
+    cout << "inseam = "  << inseam << " , 042 in octoal"<< endl ;   // 裤长
 
     cout << hex ;
     cout << "wrist  = "  << wrist << " , 0x42 in hexadecimal"<< endl ;

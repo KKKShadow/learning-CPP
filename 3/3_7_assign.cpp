@@ -11,7 +11,7 @@ int main (void)
     int guess = 3.9832 ;
     cout << "guess = " << guess << endl ;
 
-    int debt = 7.2E12 ;
+    int debt = 7.2E4;
     cout << "debt = " << debt << endl ;
 
     int auks ,bats , coots ;
@@ -23,7 +23,7 @@ int main (void)
     char ch = 'Z' ;
     cout << "The code for " << ch << " is " << int(ch) << endl ;
     cout << "Yes , the code is " << static_cast<int>(ch) << endl ; 
-    // static_cast<类型> (对象)
+    // static_cast<类型> (对象)    用于类型转换
 
     char grade = 65 ;
     cout << "grade = " << grade << endl ;

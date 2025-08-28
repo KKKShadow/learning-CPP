@@ -24,7 +24,10 @@ int main (void)
 
     sam = 0;
     sue = 0;
-
+    cout << "------------------------------- " << endl;
+    cout << "sam has  " << sam << " dollars"<< endl;
+    cout << "sue has  " << sue << " dollars"<< endl;
+    cout << "minus 1 to each account " << endl;
     sam = sam - 1;
     sue = sue - 1;
 
