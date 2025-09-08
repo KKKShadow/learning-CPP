@@ -44,7 +44,7 @@ int main (void)
     cout << "s2 = " << s2 << endl ;
     
     char char1[20], char2[20];
-    strcpy(char1 , charr2) ;
+    strcpy(char1 , charr2) ;        // cstring 库函数
 
     str2 += " paste" ;
     strcat(char1 , " juice") ;
@@ -54,5 +54,25 @@ int main (void)
     int len1 = str2.size() ;  // string 类定义了 size() 成员函数
     int len2 = strlen(char1) ; // 字符用 strlen() 函数
     cout << "len1 = " << len1 << " , len2 = " << len2 << endl ;
+
+
+    char charr3[20] ;
+    string str3 ;
+
+    cout << "Length of string in charr3 : " << strlen(charr3)  <<endl ;
+    cout << "Length of string in str3 : " << str3.size() << endl ;   // 未初始化的 string 对象长度为 0
+
+    cout << "Enter a string : " ;     // peanut butter
+    cin.get() ;    // cin会留下换行符  需要先读取
+    cin.getline(charr3 , 20) ;   //  可以读取空格
+    cout << "Enter string is : " << charr3 << endl;
+
+    cout << "Enter another string : " ;  // blueberry jam
+    getline(cin,str3) ;
+    cout << "Enter another string is : " << str3 << endl;
+
+    cout << "Length of string in charr3 : " << strlen(charr3)  <<endl ;
+    cout << "Length of string in str3 : " << str3.size() << endl ;   // 未初始化的 string 对象长度为 0
+
     return 0 ;
 }
