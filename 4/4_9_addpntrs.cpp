@@ -30,5 +30,6 @@ int main(void){
     short *pas[20] ; // pas 是一个指针数组，数组中的每个元素都是指向short的指针
     short (*pas2)[20] ; // pas2 是一个指针，指向一个有20个short元素的数组
 
+
     return 0;
 }
